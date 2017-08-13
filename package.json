@@ -1,0 +1,28 @@
+{
+  "name": "test-minimize-bundle-js-size",
+  "version": "1.0.0",
+  "author": "Michal Zuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaelz/test-minimize-bundle-js-size/issues"
+  },
+  "homepage": "https://github.com/mikaelz/test-minimize-bundle-js-size#readme",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./bin/build.js && du -sh dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelz/test-minimize-bundle-js-size.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "shelljs": "^0.7.8",
+    "uglifyify": "^4.0.3"
+  }
+}
