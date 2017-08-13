@@ -7,4 +7,4 @@ npm install && npm run build
 ```
 
 ### Screenshot
-![Screenshot](screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/mikaelz/test-minimize-bundle-js-size/master/screenshot.jpg?v=2)
